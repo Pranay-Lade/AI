@@ -84,15 +84,11 @@ def school_chatbot(user_input):
     elif 'principal information' in user_input or "about principal" in user_input:
         return "The principal of our school is Mister Navin Mudgal. He has many ahivements and recongnitions in the field of education and is dedicated to the overall development of students."
     
-    elif 'vice principal information' in user_input or "about vice principal" in user_input:
+    elif 'vice principal information' in user_input or "vice principal" in user_input:
         return "The vice principal of our school is Misses Rupali Trivedi. She is very kind and helpful towards students and staff. And she also has many achivements and recongitions."
     
     else:
         return "Sorry, I did not understand. Please ask about school timings, exams, subjects, or teachers."
-
-    
-
-    #general interactions
 
 
 # Speech Recognition
